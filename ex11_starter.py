@@ -2,13 +2,19 @@
 
 Belgium = 'Belgium,10445852,Brussels,737966,Europe,1830,Euro,Catholicism,Dutch,French,German'
 
+# Question 1(a)
 print(len(Belgium)*'-')
-#print(Belgium)
-# checking the length of the string
+# print(Belgium)
+# checking the length of the string & multiplying hyphens by length of the string.
 
-Bel = Belgium.replace(',',':')
-print(Bel)
+#Question 1(b)
+print(Belgium.replace(',',':'))
+# replacing the commas in the string by colon.
 
+# Question 1(c)
+print(int(Belgium[26:32]) + int(Belgium[8:16]))
+
+# Alternative methods
 # Bel = Belgium.split(',')
 # Belgium = ":".join(Bel)
 # print(Belgium)
@@ -17,10 +23,6 @@ print(Bel)
 # country = int(Belgium[8:16])
 # city = int(Belgium[26:32])
 # print(city + country)
-
-print(int(Belgium[26:32]) + int(Belgium[8:16]))
-
-
 
 
 
